@@ -1,0 +1,63 @@
+[
+  {
+    "description": "    Como usuário, desejo acessar o site da loja\n    Para que possa adicionar produtos ao carrinho através da busca\n    Quero validar se os produtos vão ser adicionados corretamente",
+    "keyword": "Feature",
+    "name": "Ecommerce",
+    "line": 2,
+    "id": "ecommerce",
+    "tags": [],
+    "uri": "Ecommerce.feature",
+    "elements": [
+      {
+        "id": "ecommerce;adicionar-produto-ao-carrinho",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Adicionar produto ao carrinho",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "que acesse o site da loja",
+            "result": {
+              "status": "passed",
+              "duration": 8747000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "desejo realizar a busca pelo produto Faded Short Sleeve",
+            "result": {
+              "status": "passed",
+              "duration": 1109000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "deve adicionar ao carrinho o primeiro produto de acordo com o resultado",
+            "result": {
+              "status": "passed",
+              "duration": 4562000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "validar se a quantidade inserida vai replicada no sumario do produto",
+            "result": {
+              "status": "passed",
+              "duration": 5080000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
